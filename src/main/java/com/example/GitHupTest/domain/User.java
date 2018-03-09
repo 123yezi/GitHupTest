@@ -1,10 +1,20 @@
 package com.example.GitHupTest.domain;
 
+import java.sql.Date;
+
 public class User
 {
     private Integer  id;
     private String  name;
+    private Date birthday;
 
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
 
     public String getName() {
         return name;
